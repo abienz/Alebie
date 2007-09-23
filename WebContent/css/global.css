@@ -1,0 +1,150 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font: 69% Times New Roman, Georgia, serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 0 0 1em;
+}
+
+h1 span {
+	position: absolute;
+	left: -10000em;
+}
+
+h2 {
+	font-size: 2em;
+  font-weight: normal;
+	margin: 0 0 1em;
+}
+
+h2 a {
+	display: block;
+	color: #3C3C3C;
+	text-decoration: none;
+}
+
+h2.toggler {
+	padding: 0;
+	margin: 0;
+	color: #FFF;
+	border: 1px solid #02242E;
+	background: url(../images/bg_heading.gif) no-repeat 100% 0;
+}
+
+h2.toggler span {
+	position: absolute;
+	left: -10000em;
+}
+
+h3 {
+	font-size: 1.8em;
+	margin: 0.5em 0 0;
+	font-style: italic;
+  color: #666;
+}
+
+h4 {
+	font-size: 1.4em;
+	font-weight: bold;
+	margin: 0 0 0.2em;
+}
+
+h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 0 1em;
+}
+
+img {
+  border: none;
+}
+
+p {
+	font-size:1.4em;
+	line-height: 1.4em;
+  margin: 0 0 0.5em;
+  border-collapse: collapse;
+}
+
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+	font-style: italic;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#header p {
+	color: #666;
+	font-size:3em;
+	margin: 0 37px;
+	text-align: right;
+	height: 48px;
+	background: url(../images/h_sub_title.gif) no-repeat 496px  8px;
+}
+
+#header p span {
+	position: absolute;
+	left: -10000em;
+}
+
+div.element {
+	padding: 0 37px;
+	background: #FFF url(../images/dropshadow_x.gif) no-repeat 0 0;
+}
+
+div.element p {
+	margin: 0 0 1em;
+}
+
+div.element ul {
+	margin: 37px 0;
+  list-style: none;
+}
+
+div.element ul li {
+  float: left;
+  margin: 0 0 37px;
+} 
+
+/*
+**	Heading styles begin
+*/
+
+h2#profile a {
+	height: 28px;
+	margin: 0 37px;
+	background: url(../images/h_profile.gif) no-repeat 100% 2px;
+}
+
+h2#experience a {
+	height: 28px;
+	margin: 0 37px;
+	background: url(../images/h_experience.gif) no-repeat 100% 2px;
+}
+
+h2#projects a {
+	height: 28px;
+	margin: 0 37px;
+	background: url(../images/h_projects.gif) no-repeat 100% 2px;
+}
+
+h2#contact a {
+	height: 28px;
+	margin: 0 37px;
+	background: url(../images/h_contact.gif) no-repeat 100% 2px;
+}
+
+/*
+**	Heading styles end
+*/
