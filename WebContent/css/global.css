@@ -74,10 +74,17 @@ p {
 }
 
 #wrapper {
-	width: 980px;
+	width: 990px;
+  padding: 0 0 5px;
 	margin: 0 auto;
 	text-align: left;
 	font-style: italic;
+  background: url(../images/dropshadow_bottom.gif) no-repeat 0 100%;
+}
+
+#wrapperInner {
+  padding: 0 5px;
+  background: url(../images/dropshadow_side.gif) repeat-y 0 0;
 }
 
 #header h1 {
