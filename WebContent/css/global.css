@@ -64,6 +64,7 @@ h5 {
 
 img {
   border: none;
+  vertical-align: top;
 }
 
 p {
@@ -115,14 +116,54 @@ div.element p {
 }
 
 div.element ul {
-	margin: 37px 0;
+	margin: 1em 0;
   list-style: none;
 }
 
 div.element ul li {
   float: left;
-  margin: 0 0 37px;
-} 
+  margin: 0 0 1em;
+}
+
+div.element ul li img {
+  display: block;
+}
+
+div.element ul li a {
+  font-size: 1.4em;
+  text-decoration: none;
+	color: #666;
+  font-weight: bold;
+}
+
+div.element ul li a:hover {
+  text-decoration: underline;;
+}
+
+form {
+  margin: 20px 0;
+}
+
+form div {
+  margin: 1em 0;
+}
+
+form label {
+  float: left;
+  font-size: 1.4em;
+  width: 11em;
+}
+
+form .text {
+  background: #DDD;
+  border: 1px solid #333;
+  font: 1.2em "Times New Roman", Times, serif;
+  font-style: normal;
+}
+
+form .submit {
+  width: 11em;
+}
 
 /*
 **	Heading styles begin

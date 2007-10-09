@@ -77,16 +77,38 @@
   				<h2 id="projects" class="toggler atStart"><a href="#projects"><span>Projects Completed</span></a></h2>
   				<div class="element atStart">
             <ul>
-              <li><a href="http://www.dresdnerkleinwort.com"><img src="images/project_dk.jpg" alt="Dresdner Kleinwort" /></a></li>
-              <li><a href="http://www.formula1.com"><img src="images/project_f1.jpg" alt="Forumla 1" /></a></li>
-              <li><a href="http://www.itnsource.com"><img src="images/project_itn.jpg" alt="ITN Source" /></a></li>
-              <li><a href="http://uk.playstation.com"><img src="images/project_ps.jpg" alt="PlayStation Portal" /></a></li>
-              <li><a href="http://www.barclaycard.co.uk"><img src="images/project_bc.jpg" alt="Barclaycard" /></a></li>
-              <li><a href="http://www.barclaycardbusiness.co.uk"><img src="images/project_bb.jpg" alt="Barlcaycard Business" /></a></li>
-              <li><a href="http://www.allenovery.com"><img src="images/project_aa.jpg" alt="Allen &amp; Overy" /></a></li>
-              <li><a href="http://www.cliffordchance.com"><img src="images/project_cc.jpg" alt="Clifford Chance" /></a></li>
-              <li><a href="http://www.varenne.co.uk"><img src="images/project_ss.jpg" alt="Varenne" /></a></li>
-              <li><a href="http://www.breville.com.au/"><img src="images/project_bv.jpg" alt="Breville Australia" /></a></li>
+              <li>
+                <a href="http://www.dresdnerkleinwort.com">
+                  <img src="images/project_dk.jpg" alt="Dresdner Kleinwort" />Dresdner Kleinwort
+                </a>
+              </li>
+              <li>
+                <a href="http://www.formula1.com"><img src="images/project_f1.jpg" alt="Forumla 1" />Formula 1</a>
+              </li>
+              <li>
+                <a href="http://www.itnsource.com"><img src="images/project_itn.jpg" alt="ITN Source" />ITN Source</a>
+              </li>
+              <li>
+                <a href="http://uk.playstation.com"><img src="images/project_ps.jpg" alt="PlayStation Portal" />Playstation Portal</a>
+              </li>
+              <li>
+                <a href="http://www.barclaycard.co.uk"><img src="images/project_bc.jpg" alt="Barclaycard" />Barclaycard</a>
+              </li>
+              <li>
+                <a href="http://www.barclaycardbusiness.co.uk"><img src="images/project_bb.jpg" alt="Barlcaycard Business" />Barlcaycard Business</a>
+              </li>
+              <li>
+                <a href="http://www.allenovery.com"><img src="images/project_aa.jpg" alt="Allen &amp; Overy" />Allen &amp; Overy</a>
+              </li>
+              <li>
+                <a href="http://www.cliffordchance.com"><img src="images/project_cc.jpg" alt="Clifford Chance" />Clifford Chance</a>
+              </li>
+              <li>
+                <a href="http://www.varenne.co.uk"><img src="images/project_ss.jpg" alt="Varenne" />Varenne</a>
+              </li>
+              <li>
+                <a href="http://www.breville.com.au/"><img src="images/project_bv.jpg" alt="Breville Australia" />Breville Australia</a>
+              </li>
             </ul>
   				</div>
   				
@@ -94,16 +116,19 @@
   				<div class="element atStart">
             <form id="form1" method="post" action="/cgi-bin/contact.pl">
               <div>
-                <label for="contact_name">Your name</label><input id="contact_name" type="text" />
+                <label for="contact_name">Your name</label><input id="contact_name" type="text" class="text" />
               </div>
               <div>
-                <label for="contact_address">Your email address</label><input id="contact_address" type="text" />
+                <label for="contact_address">Your email address</label><input id="contact_address" type="text" class="text" />
               </div>
               <div>
-                <label for="contact_message">Your message</label><textarea id="contact_message"></textarea>
+                <label for="contact_message">Your message</label><textarea id="contact_message" rows="5" cols="60" class="text"></textarea>
               </div>
               <div>
-                <label for="contact_validate">Not spam (Please check)</label><input type="checkbox" name="contact_validate" value="Yes" />
+                <label for="contact_validate">Not spam (Please check)</label><input type="checkbox" id="contact_validate" value="Yes" />
+              </div>
+              <div>
+                <input id="submit" type="submit" value="Send" class="submit" />
               </div>
             </form>
   				</div>
