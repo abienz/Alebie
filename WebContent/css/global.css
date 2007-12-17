@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
 	font: 69% Times New Roman, Georgia, serif;
 	text-align: center;
@@ -19,6 +23,7 @@ h1 span {
 }
 
 h2 {
+  clear: both;
 	font-size: 2em;
   font-weight: normal;
 	margin: 0 0 1em;
