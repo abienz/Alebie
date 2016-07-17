@@ -4,94 +4,64 @@
 }
 
 body {
-  color: #DDD;
-  font: 62.5% Verdana, "MS Trebuchet", sans-serif;
-  background: #000 url("../images/bg_alebie_01.jpg") repeat-y 50% 0;
+  animation: load 1s ease-in-out 1;
+  color: rgba(0, 0, 0, 0.8);
+  font: 18px "Scope One", serif;
+  background: #FFF;
+  text-align: center;
 }
 
-/*Background colours*/
-div.section, 
-ul#nav li a {
-  background: #333;
-  background: rgba(51, 51, 51, 0.7);
+@keyframes load {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-div.item {
-	margin: 0 0 20px;
+header {
+  margin: 0 0 30px;
 }
-
+header p {
+  font-size: 24px;
+  margin: 10px 0;
+}
 h1 {
-	position: relative;
-	width: 228px;
-	height: 81px;
-  float: left;
-  font-size: 4.6em;
-	background: url(../images/logo.png) no-repeat 0 0;
-	margin: 0 0 0 7px;
-}
-
-h1 span {
-	position: absolute;
-	top: -10000px;
+  border-bottom: 1px solid #D81E05;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  line-height: 1;
+  margin: 10px 0 0;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
   margin: 0 0 10px;
 }
 
-h3 {
-  font-size: 1.8em;
-}
-
-p#tagLine {
-	background: url("../images/tag_line.png") no-repeat 0 0;
-	position: relative;
-	clear: left;
-	margin: 155px 0 0 7px;
-	width: 522px;
-	height: 53px;
-}
-
-p#tagLine span {
-	position: absolute;
-	top: -10000px;
-}
-
-ul#nav {
-  float: right;
-  list-style: none;
-  margin: 0 0 10px;
-}
-
-ul#nav li a {
-  margin: 0 0 5px;
-  float: right;
-  color: #DDD;
-  text-decoration: none;
-  font-size: 2em;
-  padding: 10px 20px;
-}
-
-ul#nav li a:hover {
-  color: #0CD;
-}
-
-div#wrapper {
-  width: 800px;
-  margin: 0 auto;
-  background: none;
-}
-
-div {
-  clear: both;
-  padding: 20px;
+#wrapper {
+  margin: 0 20px;
 }
 
 p {
-  font-size: 1.6em;
   margin: 0 0 10px;
   line-height: 1.4em;
+}
+
+svg {
+  fill: #D81E05;
+  height: 80px;
+  width: 80px;
+}
+
+.section {
+  margin: 0 0 30px
+}
+
+#contact {
+  display: none;
 }
 
 form div {
@@ -115,19 +85,25 @@ form textarea {
 	padding: 3px;
 }
 
-div#projects ul li {
-	overflow: auto;
-}
+@media (min-width: 960px) {
+  header {
+    text-align: left;
+  }
 
-div#projects ul li img {
-	float: left;
-}
+  header h1,
+  header p {
+    margin: 10px 0;
+    padding: 0 10px;
+  }
 
-div#projects ul li h3 {
-	padding: 100px 0 0;
-	margin: 0 0 0 320px;
-}
-
-div#projects ul li p {
-	margin: 0 0 0 320px;
+  #wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section {
+    flex-grow: 1; 
+    margin: 30px;
+    width: 30%;
+  }
 }
