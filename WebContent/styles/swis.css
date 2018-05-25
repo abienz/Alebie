@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* + * {
+  margin: 16px 0 0;
+}
+
+body {
+  background: #E81B00;
+  color: #FFF;
+  font: 16px 'Open Sans', sans-serif;
+}
+
+#profile {
+  display: none;
+}
+
+h1 {
+  font-size: 15vh;
+  line-height: 1;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav a {
+  color: #FFF;
+  font-size: 15vh;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#tagLine {
+  font-size: 15vh;
+  font-weight: bold;
+  line-height: 1;
+}

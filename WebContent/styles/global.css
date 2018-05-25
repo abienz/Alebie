@@ -10,29 +10,29 @@ body {
 }
 
 /*Background colours*/
-div.section, 
+div.section,
 ul#nav li a {
   background: #333;
   background: rgba(51, 51, 51, 0.7);
 }
 
 div.item {
-	margin: 0 0 20px;
+  margin: 0 0 20px;
 }
 
 h1 {
-	position: relative;
-	width: 228px;
-	height: 81px;
+  position: relative;
+  width: 228px;
+  height: 81px;
   float: left;
   font-size: 4.6em;
-	background: url(../images/logo.png) no-repeat 0 0;
-	margin: 0 0 0 7px;
+  background: url(../images/logo.png) no-repeat 0 0;
+  margin: 0 0 0 7px;
 }
 
 h1 span {
-	position: absolute;
-	top: -10000px;
+  position: absolute;
+  top: -10000px;
 }
 
 h2 {
@@ -45,17 +45,17 @@ h3 {
 }
 
 p#tagLine {
-	background: url("../images/tag_line.png") no-repeat 0 0;
-	position: relative;
-	clear: left;
-	margin: 155px 0 0 7px;
-	width: 522px;
-	height: 53px;
+  background: url("../images/tag_line.png") no-repeat 0 0;
+  position: relative;
+  clear: left;
+  margin: 155px 0 0 7px;
+  width: 522px;
+  height: 53px;
 }
 
 p#tagLine span {
-	position: absolute;
-	top: -10000px;
+  position: absolute;
+  top: -10000px;
 }
 
 ul#nav {
@@ -95,39 +95,39 @@ p {
 }
 
 form div {
-	padding: 0;
-	margin: 0 0 10px;
+  padding: 0;
+  margin: 0 0 10px;
 }
 
 form label {
-	font-size: 1.6em;
-	width: 230px;
-	float: left;
+  font-size: 1.6em;
+  width: 230px;
+  float: left;
 }
 
 form input.text,
 form textarea {
-	width: 300px;
-	font: 1.2em Arial, Helvetica, sans-serif;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border: 1px solid #FFF;
-	padding: 3px;
+  width: 300px;
+  font: 1.2em Arial, Helvetica, sans-serif;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #FFF;
+  padding: 3px;
 }
 
 div#projects ul li {
-	overflow: auto;
+  overflow: auto;
 }
 
 div#projects ul li img {
-	float: left;
+  float: left;
 }
 
 div#projects ul li h3 {
-	padding: 100px 0 0;
-	margin: 0 0 0 320px;
+  padding: 100px 0 0;
+  margin: 0 0 0 320px;
 }
 
 div#projects ul li p {
-	margin: 0 0 0 320px;
+  margin: 0 0 0 320px;
 }
